@@ -1,0 +1,16 @@
+name = "tech-blog"
+main = "src/index.ts"
+compatibility_date = "2023-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+# 静的アセットの設定
+[site]
+bucket = "./dist"
+
+# 環境変数の設定
+[vars]
+BLOG_TITLE = "3kz.tech blog"
+
+# 本番環境の設定
+[env.production]
+# route = "3kz.tech/*"  # 実際のドメインに変更

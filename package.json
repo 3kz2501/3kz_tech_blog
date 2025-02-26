@@ -1,0 +1,22 @@
+{
+  "name": "tech-blog",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development wrangler dev",
+    "build": "node scripts/build.js",
+    "deploy": "npm run build && wrangler deploy --env production"
+  },
+  "dependencies": {
+    "hono": "^3.10.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "glob": "^10.3.10",
+    "gray-matter": "^4.0.3",
+    "marked": "^9.1.5",
+    "typescript": "^5.2.2",
+    "wrangler": "^3.22.0"
+  }
+}
