@@ -563,8 +563,8 @@ function renderLayout(content: string, title: string = "Tech Blog"): string {
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5.1.0/github-markdown.min.css">
       <!-- IBM Plex JP フォントの読み込み -->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ibm/plex@6.3.0/css/ibm-plex.min.css">
-      <!-- Favicon設定 -->
-      <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💠</text></svg>">
+      // <!-- Favicon設定 -->
+      // <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💠</text></svg>">
       <style>
         /* ダークテーマと翡翠色テキスト */
         :root {
